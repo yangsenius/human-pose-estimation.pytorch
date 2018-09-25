@@ -139,11 +139,18 @@ class COCODataset(JointsDataset):
 
         annIds = self.coco.getAnnIds(imgIds=index, iscrowd=False)
         objs = self.coco.loadAnns(annIds)
-
+        bbox_retify = self.bbox_retify
         # sanitize bboxes
         valid_objs = []
         for obj in objs:
             x, y, w, h = obj['bbox']
+            '''
+            @yangsen: use bbox_retify_function to let the bbox cover all visible keypoints
+            '''
+            # yang sen
+            x, y, w, h = bbox_retify(width,height,obj['bbox'],obj['keypoints'])
+            # yang sen
+
             x1 = np.max((0, x))
             y1 = np.max((0, y))
             x2 = np.min((width - 1, x1 + np.max((0, w - 1))))
@@ -407,3 +414,24 @@ class COCODataset(JointsDataset):
         logger.info('=> coco eval results saved to %s' % eval_file)
 
         return info_str
+
+    def bbox_retify(self,width,height,bbox,keypoints,margin=0):
+        r"""
+        `Author`:  Yang Sen
+
+        `Function`: use bbox_retify() function to let the bbox cover all visible keypoints
+        
+        `Purpose`: reduce the label noise resulting from some visible (or invisible) keypoints not in bbox
+        """
+        kps = np.array(keypoints).reshape(-1, 3)   #array([[x1,y1,1],[],[x17,y17,1]]]
+        # 针对标注点 ：      kps[kps[:,2]>0]
+        # 仅针对接可见点的：  kps[kps[:,2]==2] 
+        border = kps[kps[:,2] >=1 ] 
+        a, b = min(border[:,0].min(),bbox[0]), min(border[:,1].min(), bbox[1])
+        c, d = max(border[:,0].max(),bbox[0]+bbox[2]), max(border[:,1].max(),bbox[1]+bbox[3])
+        assert abs(margin)<20 ,"margin is too large"
+        a,b,c,d=max(0,a-margin),max(0,b-margin),min(width,c+margin),min(height,d+margin)
+        ###因为原来bbox只覆盖了人体可见区域，
+        # 有些关键点不可见但标注的是否该按照这样的点扩大，
+        # 会导致噪声特征产生，需要记录一下吧##
+        return [a,b,c-a,d-b]

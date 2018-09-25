@@ -220,3 +220,4 @@ class JointsDataset(Dataset):
                         g[g_y[0]:g_y[1], g_x[0]:g_x[1]]
 
         return target, target_weight
+    
