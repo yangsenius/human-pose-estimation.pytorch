@@ -144,11 +144,14 @@ class COCODataset(JointsDataset):
         valid_objs = []
         for obj in objs:
             x, y, w, h = obj['bbox']
-            '''
+            
+            r"""
             @yangsen: use bbox_retify_function to let the bbox cover all visible keypoints
-            '''
+            """
             # yang sen
+            
             x, y, w, h = bbox_retify(width,height,obj['bbox'],obj['keypoints'])
+            
             # yang sen
 
             x1 = np.max((0, x))
@@ -173,6 +176,7 @@ class COCODataset(JointsDataset):
 
             joints_3d = np.zeros((self.num_joints, 3), dtype=np.float)
             joints_3d_vis = np.zeros((self.num_joints, 3), dtype=np.float)
+            invisible_joints=0
             for ipt in range(self.num_joints):
                 joints_3d[ipt, 0] = obj['keypoints'][ipt * 3 + 0]
                 joints_3d[ipt, 1] = obj['keypoints'][ipt * 3 + 1]
@@ -180,6 +184,8 @@ class COCODataset(JointsDataset):
                 t_vis = obj['keypoints'][ipt * 3 + 2]
                 if t_vis > 1:
                     t_vis = 1
+                if t_vis == 1:
+                    invisible_joints += 1
                 joints_3d_vis[ipt, 0] = t_vis
                 joints_3d_vis[ipt, 1] = t_vis
                 joints_3d_vis[ipt, 2] = 0
@@ -193,6 +199,8 @@ class COCODataset(JointsDataset):
                 'joints_3d_vis': joints_3d_vis,
                 'filename': '',
                 'imgnum': 0,
+                'num_keypoints':obj['num_keypoints'],
+                'invisible_keypoints':invisible_joints,
             })
 
         return rec
@@ -427,11 +435,14 @@ class COCODataset(JointsDataset):
         # 针对标注点 ：      kps[kps[:,2]>0]
         # 仅针对接可见点的：  kps[kps[:,2]==2] 
         border = kps[kps[:,2] >=1 ] 
-        a, b = min(border[:,0].min(),bbox[0]), min(border[:,1].min(), bbox[1])
-        c, d = max(border[:,0].max(),bbox[0]+bbox[2]), max(border[:,1].max(),bbox[1]+bbox[3])
-        assert abs(margin)<20 ,"margin is too large"
-        a,b,c,d=max(0,a-margin),max(0,b-margin),min(width,c+margin),min(height,d+margin)
-        ###因为原来bbox只覆盖了人体可见区域，
-        # 有些关键点不可见但标注的是否该按照这样的点扩大，
-        # 会导致噪声特征产生，需要记录一下吧##
-        return [a,b,c-a,d-b]
+        if sum(kps[:,2] >=1) > 0:
+            a, b = min(border[:,0].min(),bbox[0]), min(border[:,1].min(), bbox[1])
+            c, d = max(border[:,0].max(),bbox[0]+bbox[2]), max(border[:,1].max(),bbox[1]+bbox[3])
+            assert abs(margin)<20 ,"margin is too large"
+            a,b,c,d=max(0,a-margin),max(0,b-margin),min(width,c+margin),min(height,d+margin)
+            ###因为原来bbox只覆盖了人体可见区域，
+            # 有些关键点不可见但标注的是否该按照这样的点扩大，
+            # 会导致噪声特征产生，需要记录一下吧##
+            return [a,b,c-a,d-b]
+        else:
+        	return bbox

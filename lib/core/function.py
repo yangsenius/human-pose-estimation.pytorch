@@ -36,17 +36,30 @@ def train(config, train_loader, model, criterion, optimizer, epoch,
     model.train()
 
     end = time.time()
-    for i, (input, target, target_weight, meta) in enumerate(train_loader):
+    ####################################
+    """ YangSen:\n Memory-Batch Algorithm"""
+
+    for i, (input, target, target_weight, meta, memory) in enumerate(train_loader):
         # measure data loading time
         data_time.update(time.time() - end)
-
+        
         # compute output
         output = model(input)
         target = target.cuda(non_blocking=True)
         target_weight = target_weight.cuda(non_blocking=True)
-
+		
         loss = criterion(output, target, target_weight)
-
+        logger.info('=> batch_loss.size {} loss={}'.format(loss.size(),loss))
+        
+        
+        #######################  Memory-Batch ################
+        """ @ yang sen \n how to use the historical message of learning difficult for each example of each batch"""
+        
+        def Memory_Batch(loss,memory,epoch,grad_descent_iters):
+            batch_loss=[i for i in loss]
+            batch_loss=sorted(batch_loss，reverse=True)
+        
+        ##############################################3#######
         # compute gradient and do update step
         optimizer.zero_grad()
         loss.backward()

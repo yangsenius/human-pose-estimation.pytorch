@@ -45,6 +45,10 @@ def parse_args():
                         help='experiment configure file name',
                         required=True,
                         type=str)
+    parser.add_argument('--exp_name',
+                        help='experiment name',
+                        required=True,
+                        type=str)
 
     args, rest = parser.parse_known_args()
     # update config
@@ -112,6 +116,7 @@ def main():
     writer_dict['writer'].add_graph(model, (dump_input, ), verbose=False)
 
     gpus = [int(i) for i in config.GPUS.split(',')]
+    print(gpus)
     model = torch.nn.DataParallel(model, device_ids=gpus).cuda()
 
     # define loss function (criterion) and optimizer

@@ -130,8 +130,22 @@ class JointsDataset(Dataset):
             'rotation': r,
             'score': score
         }
-
-        return input, target, target_weight, meta
+        ################################################################
+        # @yangsen
+        # 难度系数和遗忘程度 初始化
+        noise=db_rec['invisible_keypoints'] #标记但不可见点
+        w=np.array(db_rec['num_keypoints'])
+        lamda=np.exp(1)+1  #让标注点数量为1的难度值D设为最大为1
+        
+        initial_difficult=lamda*(1-1/(1+np.exp(-np.sqrt(w)+np.sqrt(noise))))
+        memory={
+            'index':idx,
+            'memory_difficult':initial_difficult, #(0,1]
+            'forget_degree':1, #[0,1] 0 represents remenber， 1 represents forgotten
+        }
+        # yangsen
+        ###############################################################
+        return input, target, target_weight, meta, memory
 
     def select_data(self, db):
         db_selected = []
