@@ -146,6 +146,29 @@ class MetaData_Container(object):
             Table['loss_table'][index][epoch] = meta_batch[id]['loss'] 
             Table['level_table'][index][epoch] = meta_batch[id]['level'] 
         self.table=Table
+    
+    def API_LOSS(self,loss,meta,epoch):
+        """
+        @ yang sen @ seu
+        1.加载数据每个mini-batch中每个样本的的meta数据：
+            if 第一次遇见该样本： 从dataloader中加载mini-batch中的meta
+            else：从全局动态索引表中 加载minibatch中的meta数据
+        2.根据加载的mini-batch中的meta数据，更新 周期索引表
+        3.根据当前mini-batch中在当前迭代中各个样本的loss值，更新mini-batch中的meta数据，计算最佳回传梯度
+        4.根据更新后的mini-batch中的meta数据，更新全局动态索引表中meta数据
+
+        """        
+        Batchmeta = self.MiniBatch_MetaData_Loader(loss,meta) 
+        self.Update_Table_Index(epoch,Batchmeta)
+
+        new_Batchmeta = self.Update_MiniBatch_MetaData(Batchmeta)
+        #M_C.Update_Table_Index(epoch,new_Batchmeta)
+        self.Update_New_Minibatch_To_MetaData_Dict(new_Batchmeta)
+
+        best_backward_gradient=self.Gradient_Backward_Loss
+        return best_backward_gradient
+
+
         
         
 class Meta_dataset(Dataset):
@@ -170,14 +193,8 @@ def train(train_loader,MetaData_Container, epoch):
     
     for i, (loss, meta) in enumerate(train_loader):
         
-        Batchmeta = M_C.MiniBatch_MetaData_Loader(loss,meta) 
-        M_C.Update_Table_Index(epoch,Batchmeta)
-
-        new_Batchmeta = M_C.Update_MiniBatch_MetaData(Batchmeta)
-        #M_C.Update_Table_Index(epoch,new_Batchmeta)
-        M_C.Update_New_Minibatch_To_MetaData_Dict(new_Batchmeta)
-
-        loss=M_C.Gradient_Backward_Loss
+        Best_Loss = M_C.API_LOSS(loss,meta) 
+        
 
 
 
@@ -197,9 +214,10 @@ def main():
 
     datasets_num=len(meta_dataset)
     print(datasets_num)
+
+    #在训练周期开始前，初始定义meta数据容器，随意起名
     SEU_YS=MetaData_Container(datasets_num,batchsize,total_epoch)
     
-
     for epoch in range(total_epoch):
         train(train_loader,SEU_YS,epoch)
 
