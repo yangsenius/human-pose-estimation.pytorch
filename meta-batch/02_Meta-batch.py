@@ -30,6 +30,8 @@ class MetaData_Container(object):
         self.CSR = 0.3
         self.difficult_threshold=50
         self.forget_degree_incrase=20
+        self.easy_pattern_learning_epoch_ratio=0.667
+        self.hard_learning_epoch_begin = self.easy_pattern_learning_epoch_ratio * total_epoch
 
         self.Gradient_Backward_Loss=0
         self.table=self.Bulid_Table()
@@ -48,7 +50,7 @@ class MetaData_Container(object):
                     'memory_difficult':Batchmeta['memory_difficult'][id], # difficult value for each epoch
                     'forget_degree':Batchmeta['forget_degree'][id],
                     'loss':loss,
-                    'level':888} 
+                    'level':2} 
                 Batchmeta_list.append(tmp)
                 self.ID_list.append(tmp['index']) #面向整个数据集建立 全局动态索引表
                 self.MetaData_Dict.append({'index':tmp['index'],
@@ -94,14 +96,14 @@ class MetaData_Container(object):
             else: # 易
                 tmp['level']=0
                 minibatch_backward_loss += tmp['loss']
-                tmp['forget_degree'] -= 2*self.forget_degree_incrase #规定容易的被忘记地更快
+                tmp['forget_degree'] -= self.forget_degree_incrase #规定容易的被忘记地更快
             # final operation: 
             # we should redefine the difficult for each batch example
             tmp['forget_degree'] = 0 if tmp['forget_degree'] < 0 else tmp['forget_degree']
             tmp['forget_degree'] = 100 if tmp['forget_degree'] > 100 else tmp['forget_degree']
-            print('x,y=',tmp['forget_degree'],tmp['memory_difficult'])
+            #print('x,y=',tmp['forget_degree'],tmp['memory_difficult'])
             tmp['memory_difficult'] = (tmp['memory_difficult']+tmp['forget_degree'])/2
-            print('y',tmp['memory_difficult'])
+            #print('y',tmp['memory_difficult'])
             new_minibatchmeta.append(tmp)
         #logger.info("minibatch_meta and backward_loss have been updated ")
         self.Gradient_Backward_Loss=minibatch_backward_loss
@@ -128,11 +130,13 @@ class MetaData_Container(object):
         Table_Index_Forget = torch.zeros(size=(total_num,total_epoch))
         Table_Index_Loss = torch.zeros(size=(total_num,total_epoch))
         Table_Index_Level = torch.zeros(size=(total_num,total_epoch))
+        Tabel_Index_Level_accmulation=torch.zeros(size=(total_num,total_epoch))
         Table={
                'difficult_table':Table_Index_Difficult,
                'forget_table':Table_Index_Forget,
                'loss_table':Table_Index_Loss,
-               'level_table':Table_Index_Level}
+               'level_table':Table_Index_Level,
+               'level_accmulation':Tabel_Index_Level_accmulation}
         return Table
     
     def Update_Table_Index(self,epoch,meta_batch):
@@ -144,9 +148,25 @@ class MetaData_Container(object):
             Table['difficult_table'][index][epoch] = meta_batch[id]['memory_difficult']
             Table['forget_table'][index][epoch] = meta_batch[id]['forget_degree']
             Table['loss_table'][index][epoch] = meta_batch[id]['loss'] 
-            Table['level_table'][index][epoch] = meta_batch[id]['level'] 
+            Table['level_table'][index][epoch] = meta_batch[id]['level']
+            Table['level_accmulation'][index][epoch] = Table['level_accmulation'][index][epoch-1] \
+                                                        +meta_batch[id]['level'] if epoch !=0 else 2
         self.table=Table
-    
+    def hard_example_learning(self,meta,epoch):
+        """when the  model has learn the general pattern with some easy example 
+        and training steps into robust learning stage, we should feed more hard example into model training
+        How to define the 'hard' example? 如何定义“困难”样本？ 查询 困难累积表 即可！
+        The Tabel_Index_Level_Accmulation accmulates the historical difficult for each example, 
+        we define a example with large Level_Accmulation values as 'hard' example , then we should feed more them to the model"""
+        if epoch > self.hard_learning_epoch_begin:
+            for tmp in meta:
+                if tmp['level'] == 2: # means hard example
+                    Level_Accmulation=self.table['level_accmulation'][tmp['index']][epoch]
+                    if (Level_Accmulation/epoch) > 1: # 如果每个周期的平均难度 超过中等（level=1）
+                        #定义其为'hard' example
+                        self.Gradient_Backward_Loss += tmp['loss'] #把那些难度比较大的样本的loss 加入有效梯度中
+                        #这样做依旧让原来的规则有效，更加强调了困难样本的学习！
+
     def API_LOSS(self,loss,meta,epoch):
         """
         @ yang sen @ seu
@@ -164,6 +184,9 @@ class MetaData_Container(object):
         new_Batchmeta = self.Update_MiniBatch_MetaData(Batchmeta)
         #M_C.Update_Table_Index(epoch,new_Batchmeta)
         self.Update_New_Minibatch_To_MetaData_Dict(new_Batchmeta)
+        
+        if epoch>self.hard_learning_epoch_begin:
+            self.hard_example_learning(new_Batchmeta,epoch)
 
         best_backward_gradient=self.Gradient_Backward_Loss
         return best_backward_gradient
@@ -193,7 +216,7 @@ def train(train_loader,MetaData_Container, epoch):
     
     for i, (loss, meta) in enumerate(train_loader):
         
-        Best_Loss = M_C.API_LOSS(loss,meta) 
+        Best_Loss = M_C.API_LOSS(loss,meta,epoch) 
         
 
 
