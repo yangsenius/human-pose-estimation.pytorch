@@ -45,7 +45,7 @@ class MetaData_Container(object):
         for id, loss in enumerate(loss):
             if Batchmeta['index'][id] not in self.ID_list: #第一次碰到这个样本 epoch=0
                 
-                print("index={},loss={}".format(Batchmeta['index'][id],loss))
+                #print("index={},loss={}".format(Batchmeta['index'][id],loss))
                 tmp={'index':Batchmeta['index'][id], # identiy index
                     'memory_difficult':Batchmeta['memory_difficult'][id], # difficult value for each epoch
                     'forget_degree':Batchmeta['forget_degree'][id],
@@ -185,8 +185,8 @@ class MetaData_Container(object):
         #M_C.Update_Table_Index(epoch,new_Batchmeta)
         self.Update_New_Minibatch_To_MetaData_Dict(new_Batchmeta)
         
-        if epoch>self.hard_learning_epoch_begin:
-            self.hard_example_learning(new_Batchmeta,epoch)
+        #if epoch>self.hard_learning_epoch_begin:
+        #    self.hard_example_learning(new_Batchmeta,epoch)
 
         best_backward_gradient=self.Gradient_Backward_Loss
         return best_backward_gradient
