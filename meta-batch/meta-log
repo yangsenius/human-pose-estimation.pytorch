@@ -1,3155 +1,580 @@
 
-2018-10-09 16:53:57,936: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:61]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 16:54:53,344: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:61]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 16:55:18,302: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:61]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 16:55:18,412: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:91]
- -- INFO: ==> new_batch_meta is [{'index': tensor(90388), 'memory_difficult': tensor(0.4755), 'forget_degree': tensor(0.8000), 'loss': tensor(4.2000)}, {'index': tensor(109957), 'memory_difficult': tensor(0.4492), 'forget_degree': tensor(0.8000), 'loss': tensor(2.3000)}, {'index': tensor(13061), 'memory_difficult': tensor(0.5335), 'forget_degree': tensor(1.), 'loss': tensor(2.1000)}, {'index': tensor(10488), 'memory_difficult': tensor(0.5651), 'forget_degree': tensor(1.), 'loss': tensor(1.1100)}, {'index': tensor(52296), 'memory_difficult': tensor(0.5565), 'forget_degree': tensor(1.), 'loss': tensor(0.8600)}, {'index': tensor(52478), 'memory_difficult': tensor(0.8636), 'forget_degree': tensor(1.), 'loss': tensor(0.3600)}, {'index': tensor(21084), 'memory_difficult': tensor(0.5379), 'forget_degree': tensor(1.), 'loss': tensor(0.2200)}, {'index': tensor(95320), 'memory_difficult': tensor(0.6478), 'forget_degree': tensor(1.), 'loss': tensor(0.2150)}] and batch_backward_loss is 6.5
-
-2018-10-09 17:04:26,383: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:61]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 17:04:41,968: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:61]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 17:04:52,917: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:61]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 17:04:58,295: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:61]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 19:34:27,734: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:65]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 19:34:46,183: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:65]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 19:35:33,149: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:65]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 19:36:36,024: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:65]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 19:38:20,574: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/memory-batch.py 
- --[line:65]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 19:45:47,201: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/01_memory-batch.py 
- --[line:65]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 19:46:10,961: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/01_memory-batch.py 
- --[line:65]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 20:25:48,332: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/01_memory-batch.py 
- --[line:73]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 20:29:21,390: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/01_memory-batch.py 
- --[line:73]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 20:29:42,051: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/01_memory-batch.py 
- --[line:73]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-09 20:31:29,010: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/01_memory-batch.py 
- --[line:73]
- -- INFO: ==> batch_meta contain 8 instances
-
-2018-10-10 15:15:18,742: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:15:18,855: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:15:18,859: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:15:18,859: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:15:18,862: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:15:18,862: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:15:18,864: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:15:18,864: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:15:18,866: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:15:18,866: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:15:18,868: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:15:18,868: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:15:18,869: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:15:18,870: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:15:18,871: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:15:18,872: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:15:18,873: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:15:18,898: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:16:11,720: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:16:11,721: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:16:11,722: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:16:11,722: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:16:11,724: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:16:11,724: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:16:11,726: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:16:11,726: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:16:11,728: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:16:11,728: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:16:11,730: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:16:11,730: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:16:11,732: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:16:11,732: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:16:11,733: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:16:11,734: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:16:11,735: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:16:11,736: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:17:32,383: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:17:32,386: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:17:32,393: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:17:32,393: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:17:32,394: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:17:32,394: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:17:32,395: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:17:32,396: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:17:32,396: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:17:32,397: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:17:32,397: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:17:32,398: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:17:32,399: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:17:32,399: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:17:32,400: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:17:32,401: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:17:32,402: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:70]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:17:32,402: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:98]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:21:08,909: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:21:08,910: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:21:08,913: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:21:08,913: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:21:08,914: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:21:08,914: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:21:08,915: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:21:08,915: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:21:08,916: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:21:08,916: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:21:08,917: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:21:08,917: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:21:08,918: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:21:08,918: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:21:08,919: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:21:08,919: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:21:08,921: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:21:08,921: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:45,846: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:45,852: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:45,854: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:45,895: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:45,896: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:45,897: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:45,898: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:45,898: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:45,900: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:45,901: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:45,903: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:45,906: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:45,908: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:45,908: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:45,910: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:45,910: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:45,912: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:45,912: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:46,701: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:46,702: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:46,737: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:46,737: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:46,765: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:46,766: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:46,785: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:46,786: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:46,810: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:46,810: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:46,831: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:46,832: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:46,847: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:46,848: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:46,868: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:46,869: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:46,892: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:46,892: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:47,466: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:47,466: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:47,485: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:47,485: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:47,500: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:47,501: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:47,520: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:47,521: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:47,534: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:47,535: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:47,549: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:47,549: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:47,558: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:47,558: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:47,564: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:47,564: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:47,577: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:47,577: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,130: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,130: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,157: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,158: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,199: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,200: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,216: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,216: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,224: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,224: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,231: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,231: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,237: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,237: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,249: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,249: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,256: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,257: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,897: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,897: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,921: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,922: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,935: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,936: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,941: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,942: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,953: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,953: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,961: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,961: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,967: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,967: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,974: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,974: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:48,986: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:48,987: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:49,597: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:49,599: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:49,605: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:49,606: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:49,629: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:49,629: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:49,642: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:49,642: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:49,648: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:49,648: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:49,659: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:49,660: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:49,668: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:49,668: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:49,675: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:49,675: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:49,687: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:49,688: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,185: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,185: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,225: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,225: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,282: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,283: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,289: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,289: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,296: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,296: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,301: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,302: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,313: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,313: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,320: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,320: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,327: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,328: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,861: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,861: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,868: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,868: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,888: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,889: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,897: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,897: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,902: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,902: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,908: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,908: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,919: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,919: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,927: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,927: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:50,933: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:50,933: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:51,452: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:51,453: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:51,461: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:51,461: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:51,474: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:51,475: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:51,609: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:51,609: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:51,616: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:51,617: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:51,623: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:51,623: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:51,628: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:51,629: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:51,642: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:51,643: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:51,650: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:51,651: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:52,149: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:52,149: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:52,157: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:52,158: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:52,208: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:52,208: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:52,214: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:52,214: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:52,219: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:52,220: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:52,233: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:52,233: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:52,240: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:52,241: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:52,249: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:52,249: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:22:52,256: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:71]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:22:52,257: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:99]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,272: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,273: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,275: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,276: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,277: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,277: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,277: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,278: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,278: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,278: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,279: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,279: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,280: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,280: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,281: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,281: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,282: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,282: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,806: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,807: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,808: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,809: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,815: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,816: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,825: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,825: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,826: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,826: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,827: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,827: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,828: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,828: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,829: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,830: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:26,831: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:26,831: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,342: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,342: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,343: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,344: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,354: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,354: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,361: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,361: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,362: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,362: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,363: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,363: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,364: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,364: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,365: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,366: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,367: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,371: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,891: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,892: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,893: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,893: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,918: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,918: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,919: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,920: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,920: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,921: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,922: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,922: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,923: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,924: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,926: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,927: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:27,928: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:27,929: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:28,415: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:28,415: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:28,441: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:28,442: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:28,468: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:28,469: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:28,470: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:28,470: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:28,471: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:28,471: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:28,472: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:28,472: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:28,473: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:28,473: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:28,475: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:28,475: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:28,476: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:28,476: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,150: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,150: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,161: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,161: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,163: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,163: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,164: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,164: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,165: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,165: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,166: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,166: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,167: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,167: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,168: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,169: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,170: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,170: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,767: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,767: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,768: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,768: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,770: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,770: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,771: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,771: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,772: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,772: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,773: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,774: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,775: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,775: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,776: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,776: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:29,777: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:29,777: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,369: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,369: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,370: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,370: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,377: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,377: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,379: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,379: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,380: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,380: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,381: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,381: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,382: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,382: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,384: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,384: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,385: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,385: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,950: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,950: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,951: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,952: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,953: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,953: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,954: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,954: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,955: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,955: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,956: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,957: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,957: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,958: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,959: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,959: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:30,960: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:30,960: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:31,501: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:31,501: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:31,502: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:31,502: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:31,503: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:31,504: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:31,509: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:31,509: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:31,511: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:31,513: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:31,515: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:31,515: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:31,516: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:31,516: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:31,517: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:31,517: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:31,518: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:31,518: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,424: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,425: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,428: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,429: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,429: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,430: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,430: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,430: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,431: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,431: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,432: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,432: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,433: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,433: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,434: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,434: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,434: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,435: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,920: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,920: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,927: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,928: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,956: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,957: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,965: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,965: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,967: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,967: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,969: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,970: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,971: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,972: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,973: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,973: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:38,974: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:38,974: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:39,475: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:39,475: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:39,477: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:39,477: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:39,493: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:39,494: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:39,510: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:39,510: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:39,511: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:39,512: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:39,513: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:39,513: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:39,514: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:39,514: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:39,517: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:39,517: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:39,519: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:39,519: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,072: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,072: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,074: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,074: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,081: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,082: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,091: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,091: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,092: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,093: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,094: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,094: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,095: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,095: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,096: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,096: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,097: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,098: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,715: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,716: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,725: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,725: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,728: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,728: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,729: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,730: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,731: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,731: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,732: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,732: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,733: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,733: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,735: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,735: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:40,737: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:40,737: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,298: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,298: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,299: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,299: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,318: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,318: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,319: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,319: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,320: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,320: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,321: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,322: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,323: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,323: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,324: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,324: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,325: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,325: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,850: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,850: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,875: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,876: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,878: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,880: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,882: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,883: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,884: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,884: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,885: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,885: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,886: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,886: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,887: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,887: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:41,888: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:41,889: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:42,487: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:42,488: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:42,533: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:42,533: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:42,534: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:42,535: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:42,538: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:42,538: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:42,539: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:42,539: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:42,541: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:42,541: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:42,542: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:42,544: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:42,546: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:42,546: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:42,548: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:42,548: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:43,311: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:43,311: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:43,313: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:43,313: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:43,317: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:43,317: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:43,318: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:43,318: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:43,319: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:43,319: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:43,320: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:43,320: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:43,321: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:43,322: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:43,323: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:43,323: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:43,324: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:43,324: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:44,124: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:44,124: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:44,154: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:44,154: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:44,155: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:44,155: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:44,158: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:44,159: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:44,161: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:44,162: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:44,163: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:44,163: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:44,164: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:44,164: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:44,165: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:44,166: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
-
-2018-10-10 15:33:44,168: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:73]
- -- INFO: ==> OldBatchmeta has been sorted and Batchmeta contain 4 instances
-
-2018-10-10 15:33:44,169: 
- -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/02_Meta-batch.py 
- --[line:101]
- -- INFO: minibatch_meta and backward_loss have been updated 
+2018-10-12 14:35:49,753: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:276]
+ -- INFO: ==>> difficult table is 
+tensor([[2., 0., 0., 0., 2., 0., 2., 0., 0., 2.],
+        [2., 2., 2., 0., 0., 0., 0., 0., 0., 1.],
+        [2., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
+        [2., 1., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 1., 0., 0., 0., 0., 0., 1., 0.],
+        [2., 0., 2., 0., 0., 2., 2., 0., 0., 0.],
+        [2., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
+        [2., 2., 0., 2., 0., 0., 2., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 1., 1.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 1., 0., 0., 0., 1.],
+        [2., 1., 0., 0., 0., 0., 0., 1., 0., 0.],
+        [2., 0., 0., 0., 2., 2., 0., 2., 2., 0.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 2., 0., 0., 2., 0., 0., 2., 0.],
+        [2., 0., 0., 0., 0., 1., 0., 1., 1., 0.],
+        [2., 0., 0., 0., 0., 0., 1., 1., 0., 0.],
+        [2., 0., 0., 0., 0., 0., 1., 0., 1., 1.],
+        [2., 2., 0., 2., 0., 0., 0., 0., 0., 0.],
+        [2., 2., 0., 2., 2., 0., 0., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 1., 0.],
+        [2., 0., 0., 2., 0., 0., 0., 2., 0., 0.],
+        [2., 0., 1., 0., 1., 0., 1., 0., 0., 1.],
+        [2., 0., 1., 0., 0., 0., 1., 0., 0., 0.],
+        [2., 1., 0., 0., 1., 1., 0., 0., 0., 0.],
+        [2., 0., 0., 2., 0., 0., 2., 2., 0., 2.],
+        [2., 0., 0., 0., 0., 1., 0., 1., 0., 0.],
+        [2., 1., 2., 2., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 0., 2., 2., 0., 0., 0., 2., 2.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 0., 2., 0., 0., 0., 2., 0., 0.],
+        [2., 0., 0., 0., 1., 0., 1., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 0., 1.],
+        [2., 0., 1., 0., 0., 1., 0., 0., 1., 0.],
+        [2., 0., 1., 0., 0., 1., 0., 0., 0., 0.],
+        [2., 1., 0., 2., 0., 0., 0., 2., 0., 0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:36:15,270: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:277]
+ -- INFO: ==>> difficult table is 
+tensor([[2., 0., 0., 2., 0., 0., 0., 2., 0., 2.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 1., 0.],
+        [2., 2., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [2., 1., 0., 0., 0., 0., 0., 0., 0., 1.],
+        [2., 0., 0., 2., 0., 0., 2., 0., 0., 2.],
+        [2., 2., 0., 0., 0., 2., 2., 0., 2., 0.],
+        [2., 0., 0., 0., 0., 1., 0., 1., 0., 0.],
+        [2., 0., 2., 2., 0., 2., 0., 2., 2., 0.],
+        [2., 0., 2., 0., 0., 2., 2., 0., 0., 0.],
+        [2., 0., 0., 2., 2., 0., 0., 2., 2., 2.],
+        [2., 0., 0., 0., 1., 1., 0., 1., 0., 1.],
+        [2., 1., 0., 0., 0., 0., 0., 0., 1., 0.],
+        [2., 0., 0., 0., 1., 0., 0., 1., 0., 1.],
+        [2., 0., 2., 0., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 0., 0., 1., 0., 0.],
+        [2., 0., 0., 0., 1., 1., 1., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 0., 1., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 1., 1., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 0., 1.],
+        [2., 0., 0., 0., 1., 0., 0., 0., 0., 0.],
+        [2., 1., 0., 2., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 0., 2., 0., 0., 0., 0., 1., 0.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 2., 0., 0., 2., 0., 0., 0., 2.],
+        [2., 0., 2., 0., 2., 0., 0., 0., 0., 0.],
+        [2., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+        [2., 0., 0., 2., 2., 0., 0., 0., 2., 0.],
+        [2., 0., 2., 0., 2., 0., 0., 0., 0., 0.],
+        [2., 1., 2., 0., 0., 0., 2., 0., 0., 0.],
+        [2., 0., 2., 0., 2., 0., 0., 0., 0., 0.],
+        [2., 1., 2., 0., 0., 0., 2., 0., 0., 2.],
+        [2., 0., 0., 2., 0., 0., 0., 0., 1., 0.],
+        [2., 1., 0., 0., 0., 1., 1., 1., 1., 0.],
+        [2., 2., 0., 2., 0., 0., 0., 2., 0., 0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:37:07,664: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:277]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80.,  60.,  40.,  20.,   0., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [140., 140.,  80.,  60.,  40.,  20.,   0., -20., -20.,   0.],
+        [ 80., 120., 140.,  80., 120., 140.,  80.,  60.,  40.,  40.],
+        [140.,  80.,  60.,  40.,  20.,   0., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [140., 140., 140., 140., 140.,  80.,  60., 100., 140., 100.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80.,  60.,  40.,  80.,  60.,  40.,  40.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [140.,  80., 120.,  80.,  60.,  40.,  20.,   0., -20.,   0.],
+        [ 80., 120.,  80.,  60., 100.,  80.,  60.,  40.,  80.,  80.],
+        [ 80.,  60., 100., 140.,  80., 120.,  80.,  60.,  40.,  40.],
+        [ 80., 120., 140., 140.,  80.,  60.,  40.,  20.,   0.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80.,  60., 100.,  80.,  60.,  40.,  40.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80., 120.,  80.,  60., 100.,  80.,  80.],
+        [ 80., 120.,  80., 120.,  80.,  60.,  40.,  20.,   0.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  80.,  60.,  40.,  20.,   0., -20.,   0.],
+        [ 80., 120.,  80., 120.,  80.,  60.,  40.,  20.,   0.,   0.],
+        [140.,  80.,  60.,  40.,  20.,   0., -20., -20., -20.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:37:48,658: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:277]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [140.,  80.,  60., 100.,  80.,  60., 100., 140.,  80.,  80.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80.,  60., 100., 140., 140.,  80.,  80.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80., 120.,  80.,  60.,  40.,  80.,  60.,  40.,  80.,  80.],
+        [ 80.,  60.,  40.,  80.,  60., 100., 140.,  80.,  60.,  60.],
+        [ 80.,  60., 100., 140.,  80.,  60., 100.,  80., 120., 100.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80.,  60.,  40.,  20.,   0., -20.,   0.],
+        [ 80., 120., 140.,  80., 120.,  80., 120.,  80.,  60.,  60.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80.,  60.,  40.,  20.,   0., -20.,   0.],
+        [ 80., 120.,  80., 120.,  80.,  60.,  40.,  20.,   0.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80., 120.,  80.,  60.,  40.,  20.,   0., -20., -20.,   0.],
+        [ 80., 120.,  80.,  60.,  40.,  80.,  60.,  40.,  20.,  20.],
+        [ 80., 120.,  80.,  60., 100.,  80.,  60.,  40.,  80.,  80.],
+        [140., 140., 140., 140.,  80.,  60.,  40.,  20.,   0.,   0.],
+        [ 80., 120.,  80.,  60.,  40.,  20.,   0., -20., -20.,   0.],
+        [140., 140.,  80.,  60.,  40.,  20.,   0., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  80.,  60., 100.,  80., 120.,  80.,  80.],
+        [140.,  80.,  60.,  40.,  20.,   0., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80.,  60., 100.,  80.,  60.,  40.,  40.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [140.,  80., 120.,  80., 120.,  80.,  60.,  40.,  20.,  20.],
+        [ 80.,  60.,  40.,  80., 120., 140., 140.,  80.,  60.,  60.],
+        [ 80.,  60.,  40.,  80.,  60.,  40.,  20.,   0., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80.,  60.,  40.,  20.,   0., -20.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:41:36,801: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:277]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80., 120.,  80.,  60.,  40.,  80.,  60.,  40.,  20.,  20.],
+        [ 80., 120.,  80., 120.,  80.,  60.,  40.,  20.,   0.,   0.],
+        [140.,  80.,  60., 100.,  80.,  60., 100.,  80.,  60.,  60.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80.,  60.,  40.,  20.,   0., -20.,   0.],
+        [ 80.,  60., 100., 140.,  80.,  60.,  40.,  20.,   0.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [140.,  80., 120., 140.,  80., 120., 140.,  80.,  60.,  60.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80., 120.,  80.,  60., 100.,  80.,  60., 100., 140., 100.],
+        [140.,  80., 120.,  80., 120.,  80.,  60.,  40.,  20.,  20.],
+        [ 80., 120., 140.,  80.,  60.,  40.,  80.,  60.,  40.,  40.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60., 100.,  80.,  60.,  40.,  20.,   0., -20.,   0.],
+        [ 80.,  60., 100., 140.,  80.,  60.,  40.,  80.,  60.,  60.],
+        [ 80.,  60., 100.,  80., 120., 140.,  80.,  60.,  40.,  40.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [140.,  80.,  60.,  40.,  20.,   0., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  80.,  60., 100.,  80.,  60., 100., 100.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80., 120.,  80.,  60., 100.,  80.,  60.,  40.,  80.,  80.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80.,  60.,  40.,  20.,   0., -20., -20., -20., -20.,   0.],
+        [ 80., 120., 140.,  80.,  60., 100., 140., 140.,  80.,  80.],
+        [140.,  80.,  60.,  40.,  20.,   0., -20., -20., -20.,   0.],
+        [140., 140.,  80.,  60., 100., 140.,  80.,  60.,  40.,  40.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:42:18,112: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:277]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:45:06,559: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:277]
+ -- INFO: ==>> difficult table is 
+tensor([[100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.],
+        [100.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:45:39,533: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:277]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:51:30,540: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:278]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:55:25,175: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:280]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:56:33,808: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:280]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20., -20., -20., -20., -20.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:57:31,098: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:280]
+ -- INFO: ==>> difficult table is 
+tensor([[140., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 14:59:42,244: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:280]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 15:00:25,075: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:280]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.]])
+0:easy
+1:medium
+2:hard
+
+2018-10-12 15:10:37,776: 
+ -- e:/yangsen/ysstronger/pose/github-ys/human-pose-estimation.pytorch/meta-batch/03_Meta-batch.py 
+ --[line:284]
+ -- INFO: ==>> difficult table is 
+tensor([[ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [140., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.],
+        [ 80., -20., -20., -20., -20.,   0.]])
+0:easy
+1:medium
+2:hard
