@@ -24,16 +24,16 @@ class JointsMSELoss(nn.Module):
         batch_size = output.size(0)
         num_joints = output.size(1)
         #print(output.size())
-        logger.info('=> output.size {}'.format(output.size()))
-        logger.info('=> target.size {}'.format(target.size()))
+        #logger.info('=> output.size {}'.format(output.size()))
+        #logger.info('=> target.size {}'.format(target.size()))
         
         heatmaps_pred = output.reshape((batch_size, num_joints, -1)).split(1, 1)# tuple
         heatmaps_gt = target.reshape((batch_size, num_joints, -1)).split(1, 1) # tuple
         
-        logger.info('=> heatmaps_pred.size {}'.format(heatmaps_pred[1].size()))
-        logger.info('=> heatmaps_gt.size {}'.format(heatmaps_gt[1].size()))
+        #logger.info('=> heatmaps_pred.size {}'.format(heatmaps_pred[1].size()))
+        #logger.info('=> heatmaps_gt.size {}'.format(heatmaps_gt[1].size()))
 
-        logger.info('=> target_weight.size {}'.format(target_weight[1].size()))
+        #logger.info('=> target_weight.size {}'.format(target_weight[1].size()))
 
         
         loss = 0
@@ -44,10 +44,10 @@ class JointsMSELoss(nn.Module):
             if self.use_target_weight:
                  #print(heatmap_pred.size())
                  #"""=> output.size torch.Size([8, 17, 97, 73])
-			    #=> target.size torch.Size([8, 17, 97, 73])
-			    #=> tuple: heatmaps_pred[1].size  torch.Size([8, 1, 7081])
-			    #=> tuple: heatmaps_gt[2].size torch.Size([8, 1, 7081])
-			     #=> target_weight.size torch.Size([8, 17, 1])"""
+			  #=> target.size torch.Size([8, 17, 97, 73])
+			  #=> tuple: heatmaps_pred[1].size  torch.Size([8, 1, 7081])
+			  #=> tuple: heatmaps_gt[2].size torch.Size([8, 1, 7081])
+			  #=> target_weight.size torch.Size([8, 17, 1])"""
 			
                 #print(heatmap_gt.size())
                 loss += 0.5 * self.criterion(

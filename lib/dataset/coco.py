@@ -182,10 +182,11 @@ class COCODataset(JointsDataset):
                 joints_3d[ipt, 1] = obj['keypoints'][ipt * 3 + 1]
                 joints_3d[ipt, 2] = 0
                 t_vis = obj['keypoints'][ipt * 3 + 2]
-                if t_vis > 1:
-                    t_vis = 1
                 if t_vis == 1:
                     invisible_joints += 1
+                if t_vis > 1:
+                    t_vis = 1
+                
                 joints_3d_vis[ipt, 0] = t_vis
                 joints_3d_vis[ipt, 1] = t_vis
                 joints_3d_vis[ipt, 2] = 0

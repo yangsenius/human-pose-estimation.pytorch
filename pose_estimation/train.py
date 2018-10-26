@@ -1,3 +1,4 @@
+
 # ------------------------------------------------------------------------------
 # Copyright (c) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License.
@@ -33,10 +34,11 @@ from core.function import validate
 from utils.utils import get_optimizer
 from utils.utils import save_checkpoint
 from utils.utils import create_logger
-
+##################  META BATCH  ########################
+from core.metabatch import MetaData_Container
+#########################################################
 import dataset
 import models
-
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Train keypoints network')
@@ -47,9 +49,9 @@ def parse_args():
                         type=str)
     parser.add_argument('--exp_name',
                         help='experiment name',
-                        required=True,
+                        
                         type=str)
-
+                        
     args, rest = parser.parse_known_args()
     # update config
     update_config(args.cfg)
@@ -76,7 +78,8 @@ def reset_config(config, args):
         config.GPUS = args.gpus
     if args.workers:
         config.WORKERS = args.workers
-
+    if args.exp_name:
+        config.exp_name=args.exp_name
 
 def main():
     args = parse_args()
@@ -84,7 +87,7 @@ def main():
 
     logger, final_output_dir, tb_log_dir = create_logger(
         config, args.cfg, 'train')
-
+    
     logger.info(pprint.pformat(args))
     logger.info(pprint.pformat(config))
 
@@ -96,7 +99,7 @@ def main():
     model = eval('models.'+config.MODEL.NAME+'.get_pose_net')(
         config, is_train=True
     )
-
+    logger.info(">>> total params: {:.2f}M".format(sum(p.numel() for p in model.parameters()) / 1000000.0))
     # copy model file
     this_dir = os.path.dirname(__file__)
     shutil.copy2(
@@ -114,11 +117,8 @@ def main():
                              config.MODEL.IMAGE_SIZE[1],
                              config.MODEL.IMAGE_SIZE[0]))
     writer_dict['writer'].add_graph(model, (dump_input, ), verbose=False)
-
-    gpus = [int(i) for i in config.GPUS.split(',')]
-    print(gpus)
-    model = torch.nn.DataParallel(model, device_ids=gpus).cuda()
-
+    model = torch.nn.DataParallel(model).cuda()
+    
     # define loss function (criterion) and optimizer
     criterion = JointsMSELoss(
         use_target_weight=config.LOSS.USE_TARGET_WEIGHT
@@ -156,14 +156,14 @@ def main():
 
     train_loader = torch.utils.data.DataLoader(
         train_dataset,
-        batch_size=config.TRAIN.BATCH_SIZE*len(gpus),
+        batch_size=config.TRAIN.BATCH_SIZE,
         shuffle=config.TRAIN.SHUFFLE,
         num_workers=config.WORKERS,
         pin_memory=True
     )
     valid_loader = torch.utils.data.DataLoader(
         valid_dataset,
-        batch_size=config.TEST.BATCH_SIZE*len(gpus),
+        batch_size=config.TEST.BATCH_SIZE,
         shuffle=False,
         num_workers=config.WORKERS,
         pin_memory=True
@@ -175,10 +175,21 @@ def main():
         lr_scheduler.step()
 
         # train for one epoch
-        train(config, train_loader, model, criterion, optimizer, epoch,
+        """metabatch: 
+        args: 1.dataset_num 2.batchsize 3.total_epoch"""
+        #####################   METABATCH  #####################################
+        dataset_num=len(train_dataset)
+        batch_size=config.TRAIN.BATCH_SIZE
+        total_epoch=config.TRAIN.END_EPOCH
+        logger.info('dataset_size={}, batchsize = {} ,total_epoch = {}'.format(dataset_num,batch_size,total_epoch))
+        SEU_YS=MetaData_Container(dataset_num,batch_size,total_epoch)
+        #########################################################################
+        train(config, SEU_YS, train_loader, model, criterion, optimizer, epoch,
               final_output_dir, tb_log_dir, writer_dict)
 
+        SEU_YS.Output_CSV_Table() #每个周期输出表到csv文件并打印
 
+        #########################################################################
         # evaluate on validation set
         perf_indicator = validate(config, valid_loader, valid_dataset, model,
                                   criterion, final_output_dir, tb_log_dir,

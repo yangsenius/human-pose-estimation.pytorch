@@ -20,12 +20,12 @@ from core.evaluate import accuracy
 from core.inference import get_final_preds
 from utils.transforms import flip_back
 from utils.vis import save_debug_images
-
+from core.metabatch import MetaData_Container
 
 logger = logging.getLogger(__name__)
 
 
-def train(config, train_loader, model, criterion, optimizer, epoch,
+def train(config, SEU_YS, train_loader, model, criterion, optimizer, epoch,
           output_dir, tb_log_dir, writer_dict):
     batch_time = AverageMeter()
     data_time = AverageMeter()
@@ -38,8 +38,11 @@ def train(config, train_loader, model, criterion, optimizer, epoch,
     end = time.time()
     ####################################
     """ YangSen:\n Memory-Batch Algorithm"""
+    logger.info('==> t = {}, CSR = {}'.format(epoch,SEU_YS.CSR))
+    SEU_YS.CSR_Decay_Table.append(round(SEU_YS.CSR,2))
+    
 
-    for i, (input, target, target_weight, meta, memory) in enumerate(train_loader):
+    for i, (input, target, target_weight, info, meta) in enumerate(train_loader):
         # measure data loading time
         data_time.update(time.time() - end)
         
@@ -54,11 +57,8 @@ def train(config, train_loader, model, criterion, optimizer, epoch,
         
         #######################  Memory-Batch ################
         """ @ yang sen \n how to use the historical message of learning difficult for each example of each batch"""
-        
-        def Memory_Batch(loss,memory,epoch,grad_descent_iters):
-            batch_loss=[i for i in loss]
-            batch_loss=sorted(batch_loss，reverse=True)
-        
+        Best_Loss = SEU_YS.API_LOSS(loss,meta,epoch)
+        loss=Best_Loss
         ##############################################3#######
         # compute gradient and do update step
         optimizer.zero_grad()
@@ -95,7 +95,7 @@ def train(config, train_loader, model, criterion, optimizer, epoch,
             writer_dict['train_global_steps'] = global_steps + 1
 
             prefix = '{}_{}'.format(os.path.join(output_dir, 'train'), i)
-            save_debug_images(config, input, meta, target, pred*4, output,
+            save_debug_images(config, input, info, target, pred*4, output, # meta - info
                               prefix)
 
 
